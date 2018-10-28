@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GrandPhone</title>
+    <meta name="description" content="Smartphone internet shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/zerogrid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsiveslides.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='./images/logo.png' rel='icon' type='image/x-icon' />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/responsiveslides.js"></script>
+    <script>
+        $(function() {
+            $("#slider").responsiveSlides({
+                auto: true,
+                pager: false,
+                nav: true,
+                speed: 500,
+                maxwidth: 962,
+                namespace: "centered-btns"
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <!--------------Header--------------->
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                    <a class="navbar-brand" href="#"><img src="./images/brand.png" alt="logo.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Главная<span class="sr-only">(current)</span></a></li>
+                        <li><a href="services.html">Каталог</a></li>
+                        <li><a href="single.html">О нас</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Поиск</button>
+                    </form>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Меню<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="index.html">Главная</a></li>
+                                <li><a href="services.html">Каталог</a></li>
+                                <li><a href="single.html">О нас</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="contact.html">Контакты</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <div class="featured">
+        <div class="wrap-featured zerogrid">
+            <div class="slider">
+                <div class="rslides_container">
+                    <ul class="rslides" id="slider">
+                        <li><img src="images/slider1.jpg" /></li>
+                        <li><img src="images/slider2.jpg" /></li>
+                        <li><img src="images/slider3.jpg" /></li>
+                        <li><img src="images/slider4.jpg" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <!--------------Content--------------->
+    <section id="content">
+        <div class="wrap-content zerogrid">
+            <div class="row block01">
+                <div class="col-full">
+                    <div class="wrap-col">
+                        <h2>Добро пожаловать в интернет-магазин GrandPhone!</h2>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Нередко случается и так, что нам необходимо срочно купить сотовый телефон при потере собственного аппарата, или же чтобы порадовать близкого человека приятным подарком. В этом случае вам достаточно обратиться в интернет-магазин мобильных телефонов GrandPhone!™. Сотни моделей от ведущих мировых производителей предлагаются вашему вниманию. Заказ мобильных телефонов в нашем интернет-магазине можно произвести из любого города, даже не выходя из дома. Это снимет с ваших плеч массу проблем, и позволит вовремя получить средство связи, без которого крайне трудно обойтись в наши дни. Чтобы сделать заказ в интернет магазине GrandPhone, достаточно выполнить несколько простых действий. Выбрать товар, нажать кнопку «Купить» и заполнить простую форму заказа, после чего курьер доставит покупку по указанному вами адресу. Оплатить заказ в интернет-магазине вы сможете наиболее удобным для вас способом, включая возможность оплаты наличными курьеру.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------Footer--------------->
+    <footer>
+        <div class="wrap-footer">
+            <div class="copyright">
+                <p>Copyright © 2018 - <a href="https://geekbrains.ru" target="_blank">GeekBrains</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

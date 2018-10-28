@@ -1,0 +1,149 @@
+﻿<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GrandPhone</title>
+    <meta name="description" content="Smartphone internet shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/zerogrid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsiveslides.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='./images/logo.png' rel='icon' type='image/x-icon' />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/responsiveslides.js"></script>
+    <script>
+        $(function() {
+            $("#slider").responsiveSlides({
+                auto: true,
+                pager: false,
+                nav: true,
+                speed: 500,
+                maxwidth: 962,
+                namespace: "centered-btns"
+            });
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <!--------------Header--------------->
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                    <a class="navbar-brand" href="#"><img src="./images/brand.png" alt="logo.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="index.html">Главная<span class="sr-only">(current)</span></a></li>
+                        <li><a href="services.html">Каталог</a></li>
+                        <li class="active"><a href="single.html">О нас</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Поиск</button>
+                        </form>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Меню<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="services.html">Каталог</a></li>
+                                <li><a href="single.html">О нас</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="contact.html">Контакты</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!--------------Content--------------->
+<section id="content">
+	<div class="wrap-content zerogrid">
+		<div class="row block">
+			<div id="main-content" class="col-2-3">
+				<div class="wrap-col">
+					<article>
+						<h2><a href="#">История магазина GrandPhone</a></h2>
+						<img src="images/single.jpg"/>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris sollicitudin dignissim. Phasellus ultrices tellus eget ipsum ornare molestie scelerisque eros dignissim. Phasellus fringilla hendrerit lectus nec vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In faucibus, risus eu volutpat pellentesque, massa felis feugiat velit, nec mattis felis elit a eros. Cras convallis sodales orci, et pretium sapien egestas quis. Donec tellus leo, scelerisque in facilisis a, laoreet vel quam. Suspendisse arcu nisl, tincidunt a vulputate ac, feugiat vitae leo. Integer hendrerit orci id metus venenatis in luctus tellus convallis. Mauris posuere, nisi vel vehicula pellentesque, libero lacus egestas ante, a bibendum mauris mi ut diam. Duis arcu odio, tincidunt eu dictum interdum, sagittis quis dui.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum egestas rutrum. Aenean a metus sit amet massa egestas vulputate sit amet a nisi. Sed nec enim erat. Sed laoreet imperdiet dui fermentum placerat. Donec purus mi, pellentesque et congue at, suscipit ac justo. Pellentesque et augue quis libero aliquam lacinia. Pellentesque a elit vitae nisl vulputate bibendum aliquet quis velit. Integer aliquet cursus erat, in pellentesque sapien tristique vitae. In tempus tincidunt leo id adipiscing. Sed eu sapien egestas arcu condimentum dapibus. Donec sit amet quam ut metus iaculis adipiscing eget quis eros.</p>
+						<p>Sed id dui dolor, eu consectetur dui. Etiam commodo convallis laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus vel sem at sapien interdum pretium. Sed porttitor, odio in blandit ornare, arcu risus pulvinar ante, a gravida augue justo sagittis ante. Sed mattis consectetur metus quis rutrum. Phasellus ultrices nisi a orci dignissim nec rutrum turpis semper. Donec tempor libero ut nisl lacinia vel dignissim lacus tristique. Etiam accumsan velit in quam laoreet sollicitudin. Mauris euismod lacus ut magna placerat ac molestie augue consequat.</p>
+						
+					</article>
+				</div>
+			</div>
+			<div id="sidebar" class="col-1-3">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2>Ещё немного о нас</h2></div>
+						<div class="content">
+							<img src="images/about.jpg" />
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor...</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="heading"><h2>Наши партнеры:</h2></div>
+						<div class="content">
+							<ul>
+								<li><a href="#">Vestibulum iaculis lacinia est</a></li>
+								<li><a href="#">Nam ullamcorper</a></li>
+								<li><a href="#">Cras convallis sodales orci</a></li>
+								<li><a href="#">Pellentesque orci</a></li>
+								<li><a href="#">Aliquam viverra convallis auctor</a></li>
+								<li><a href="#">Nulla sed nisl mauris</a></li>
+								<li><a href="#">Id tristique tortor</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box">
+						<div class="heading"><h2>Последние комментарии</h2></div>
+						<div class="content">
+							<div class="post">
+								<img src="images/post1.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>January 22 ,2018</p>
+							</div>
+							<div class="post">
+								<img src="images/post2.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>January 22 ,2018</p>
+							</div>
+							<div class="post">
+								<img src="images/post3.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>January 22 ,2018</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--------------Footer--------------->
+    <footer>
+        <div class="wrap-footer">
+            <div class="copyright">
+                <p>Copyright © 2018 - <a href="https://geekbrains.ru" target="_blank">GeekBrains</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body></html>
